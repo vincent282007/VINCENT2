@@ -1,1 +1,98 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Forms</title>
+</head>
+<body>
+    <h1 style="color: aliceblue; background-color: blue; text-align: center;">College Enrollment Form</h1>
+    <form action="daytona.html">
+        <label for="">First Name:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Middle name:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Last name:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Birthday:</label> <br>
+        <input type="date" name="" id=""> <br> <br>
+        <label for="">Birthplace:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Age:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Year Level:</label>
+        <select name="" id="">
+            <option value="">1st Year</option>
+            <option value="">2nd Year</option>
+            <option value="">3rd Year</option>
+            <option value="">4th Year</option>
+        </select>
+        <label for="">Course:</label>
+        <select name="" id="">
+            <option value="">ACT (Associate in Computer Technology)</option>
+            <option value="">BSOA (Business Office Administration)</option>
+            <option value="">ENTREP (Entrepreneurship)</option>
+            <option value="">HM (Hospitality Management)</option>
+            <option value="">CT (Computer Technology)</option>
+        </select>
+        <br><br>
+        <label for="">Citizenship:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Sex:</label> <br>
+        <input type="radio" name="gender" id="Male" placeholder=""><label for="Male">Male</label>
+        <input type="radio" name="gender" id="Female" placeholder=""><label for="Female">Female</label>
+        <br><br>
+        <label for="">Civil Status:</label>
+        <select name="" id="">
+            <option value="">Single</option>
+            <option value="">Married</option>
+        </select>
+        <br><br>
+        <label for="">Region:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Province:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">City:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Barangay:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">House No/Street</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Contact No:</label> <br>
+        <input type="text" name="" id="" placeholder="" required>
+        <br><br>
+        <label for="">Credentials Submitted:</label> <br>
+        <input type="checkbox" name="" id="cert1">
+        <label for="cert1">From-138 (High School Card)</label> <br>
+        <input type="checkbox" name="" id="cert2">
+        <label for="cert2">Form-137</label> <br>
+        <input type="checkbox" name="" id="cert3">
+        <label for="cert3">Birth Certificate</label> <br>
+        <input type="checkbox" name="" id="cert4">
+        <label for="cert4">Good Moral Certificate</label> <br>
+        <input type="checkbox" name="" id="cert5">
+        <label for="cert5">Certificate of Transfer Credentials</label> <br>
+        <input type="checkbox" name="" id="cert5">
+        <label for="cert6">Transcript of Records</label> <br>
+        <input type="checkbox" name="" id="cert7">
+        <label for="cert7">Summer Permit / Permit to Cross Enroll</label> <br>
+        <input type="checkbox" name="" id="cert8">
+        <label for="cert8">Picture</label> <br>
+        <input type="checkbox" name="" id="cert9">
+        <label for="cert9">PSA / NSO</label> <br> <br>
+        <input type="submit" value="Submit" style="background-color: green; width: 150px;"> <br>
+        <input type="reset" value="Clear" style="background-color: red; width: 150px;">
+    </form>
+</body>
+</html>
